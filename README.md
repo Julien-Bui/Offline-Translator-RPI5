@@ -1,1 +1,1 @@
-Teste spécialement en attendant le Raspberry Pi 5 et le matériel nécessaire
+Pi 5 acquis, en attente du reste des matériels
