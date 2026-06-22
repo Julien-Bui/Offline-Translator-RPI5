@@ -1,0 +1,6 @@
+__pycache__/
+venv/
+*.pyc
+.env
+models_tts/*.onnx
+models_tts/*.json
