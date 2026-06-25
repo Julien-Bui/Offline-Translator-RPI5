@@ -17,7 +17,7 @@ Un traducteur vocal hors-ligne (Offline) optimisé pour tourner localement sur u
 Le projet est conçu autour d'une architecture embarquée autonome, optimisée pour le calcul IA local et la mobilité :
 
 * **Unité de calcul :** Raspberry Pi 5 (Modèle 8 Go de RAM) – Choisi pour sa puissance de calcul brute permettant de charger et d'exécuter les modèles de Transformers et d'ONNX en mémoire vive sans latence.
-* **Stockage :** Carte MicroSD Topelsel 32 Go – Utilisée actuellement pour stocker l'OS et les scripts. *Note : Une migration vers un boot sur clé USB 3.0 (Kingston 128 Go) est prévue dans la Roadmap pour améliorer les vitesses de lecture/écriture lors du chargement des modèles de langues lourds.*
+* **Stockage :** Une clé USB 3.0 (Kingston 128 Go) pour améliorer les vitesses de lecture/écriture lors du chargement des modèles de langues lourds.
 * **Affichage & Interface Tactile :** Écran tactile LCD 5 pouces DSI iPistBit (Résolution 800x480, capacitif) – Connecté directement via la nappe souple DSI du Raspberry Pi 5 pour un affichage compact et une navigation fluide sans encombrer les ports HDMI.
 * **Entrée Audio :** Microphone USB col-de-cygne ultra-compact – Configuré avec un correcteur de fréquence logiciel pour capturer proprement la voix et maximiser la précision de la transcription Whisper.
 * **Sortie Audio :** Haut-parleur USB miniature ou mini-enceinte jack – Pour restituer la synthèse vocale (TTS) générée par le moteur Piper.
